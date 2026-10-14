@@ -1,0 +1,21 @@
+{
+  "name": "autofix-pro-arquitectura",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Codigo base (Unidad 3) que materializa la arquitectura de AutoFix Pro: domain, application e infrastructure en JavaScript, con un componente React de demostracion para CU-01.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^8.0.1"
+  }
+}
